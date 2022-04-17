@@ -3,7 +3,7 @@ import {
   quantityOfSymbols,
   replaceZAndVFromString,
   truncate,
-  quantityOfSymbolsWithIndexOf
+  quantityOfSymbolsWithIndexOf,
 } from './index.js';
 
 const changedString = changeWord('my name bohdan and I', 'bohdan', 'vlad'); // Должно вернуть 'my name vlad and I'
